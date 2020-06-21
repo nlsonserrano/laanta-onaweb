@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+}
+
+.barra-principal {
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    font-size: 8px;
+}
+
+.foto-principal {
+    height: 350px;
+    background-image: url(/img/letralogo.png), url(/img/logo.png), url(/img/header.jpg);
+    background-position: center right,center left, center;
+    background-size: 35%, 20%, cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-size: 10px;
+    padding: 10px;
+    text-align: center;
+   
+}
+
+.bloque {
+    text-align: center;
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.conteiner-card {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 180px;
+    height: 145px;
+} 
+
+.imagen-card {
+ height: 120px;   
+ width: 150px;
+}
+
+button{
+    cursor: pointer;
+    border: black 2px solid;
+    background-color: black;
+    color: white;
+    padding: 5px;
+    box-shadow: rgba(0, 0, 0, .8) 2px 2px 5px;
+}
+
+button:hover{
+    border: rgba(0, 0, 0, .05) 2px solid;
+    background-color:rgba(0, 0, 0, .8);
+    color: white;
+    padding: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.bloque2 {
+    background-position: center;
+    background-size: cover;
+    background-image: url(/img/coco.jpg);
+    background-attachment: fixed;
+    height: 400px;
+    text-align: center;
+}
+
+.bloque2-1 {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, .8);
+    margin-top: 90px;
+}
+
+.contenedor3 {
+    background-color: white;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-size: 15px;
+}
+
+.contenedor3-1 {
+    height: 400px;
+    background-image: url(https://cdn.glitch.com/523bbec6-af2d-42fc-830f-55a75cca3bfd%2Fdelivery.jpg?v=1592585347451);
+    background-position: center;
+    background-size: cover;
+}
+
+.contenedor3-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.direccion {
+    text-align: center;
+    color: white;
+    background-color: black;
+    padding: 20px;
+}
+
+.direccion h2 {
+    margin-bottom: 20px;
+}
+
+footer {
+    padding: 10px;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+ul {
+    list-style: none;
+}
+
+#mail , #name {
+    color: white;
+    border-width: 0 0 3px 0;
+    background-color: rgba(0, 0, 0, 1);
+    border-color: rgba(255, 64, 64, 1);
+    width: 120px;
+}
+
